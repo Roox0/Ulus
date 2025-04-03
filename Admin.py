@@ -47,7 +47,7 @@ def shelby():
         "13": "https://raw.githubusercontent.com/Roox0/Ulus/refs/heads/main/facebook-pubg.py",
         "14": "https://raw.githubusercontent.com/Roox0/Ulus/refs/heads/main/bein.py",
         "15": "https://raw.githubusercontent.com/Roox0/Ulus/refs/heads/main/blu-tv-p%C4%B1n.py",
-        "16": ""
+        "16": "https://raw.githubusercontent.com/Roox0/Ulus/refs/heads/main/proxy-cekme.py"
     }
     
     if secim in baglantilar:
