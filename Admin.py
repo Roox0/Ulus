@@ -55,7 +55,7 @@ def shelby():
         "17": "https://raw.githubusercontent.com/Roox0/Ulus/refs/heads/main/proxy-cekme.py",
         "18": "https://raw.githubusercontent.com/Roox0/Ulus/refs/heads/main/proxy.py",
         "19": "https://raw.githubusercontent.com/Roox0/Ulus/refs/heads/main/31.py",
-        "20": "",
+        "20": "https://raw.githubusercontent.com/Roox0/Ulus/refs/heads/main/%C4%B1g-report.py",
     }
     
     if secim in baglantilar:
