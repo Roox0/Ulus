@@ -27,6 +27,7 @@ print("\x1b[38;5;117m  17\x1b[38;5;231m - Proxy Çekme   | \x1b[1;32m aktif ✅"
 print("\x1b[38;5;117m  18\x1b[38;5;231m - Proxy Checker   | \x1b[1;32m aktif ✅")
 print("\x1b[38;5;117m  19\x1b[38;5;231m - 31   | \x1b[1;32m aktif ✅")
 print("\x1b[38;5;117m  20\x1b[38;5;231m - Ig Report   | \x1b[1;31m kapalı ⛔")
+print("\x1b[38;5;117m  21\x1b[38;5;231m - Url Silici   | \x1b[1;32m aktif ✅")
 
 
 
@@ -56,6 +57,7 @@ def shelby():
         "18": "https://raw.githubusercontent.com/Roox0/Ulus/refs/heads/main/proxy.py",
         "19": "https://raw.githubusercontent.com/Roox0/Ulus/refs/heads/main/31.py",
         "20": "https://raw.githubusercontent.com/Roox0/Ulus/refs/heads/main/%C4%B1g-report.py",
+        "21": "",
     }
     
     if secim in baglantilar:
