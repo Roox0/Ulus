@@ -32,7 +32,7 @@ def shelby():
         "4": "https://raw.githubusercontent.com/t9omas/V1-Project/refs/heads/main/Beymen-t4_ninjapy.py",
         "5": "https://raw.githubusercontent.com/t9omas/V1-Project/refs/heads/main/tiktok-t4_nvvinjapy.py",
         "6": "https://raw.githubusercontent.com/t9omas/V1-Project/refs/heads/main/Bilyoner-5_ninjapy.py",
-        "7": "https://raw.githubusercontent.com/t9omas/V1-Project/refs/heads/main/hotmailv9_ninjapy.py",
+        "7": "https://raw.githubusercontent.com/Roox0/Ulus/refs/heads/main/hotmail.py",
         "8": "https://raw.githubusercontent.com/t9omas/V1-Project/refs/heads/main/disney-v_ninjapy.py",
         "9": "https://raw.githubusercontent.com/Roox0/Ulus/refs/heads/main/BluTvPin.py",
         "10": "https://raw.githubusercontent.com/t9omas/V1-Project/refs/heads/main/Dsamart_ninjapy.py",
