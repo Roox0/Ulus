@@ -1,5 +1,5 @@
 import os, requests, time, webbrowser
-import os,random,sys,time
+import os,random,time
 os.system("pkg install espeak")
 os.system("pkg install python-cfonts")
 os.system("clear")
