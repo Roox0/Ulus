@@ -12,7 +12,7 @@ print("\x1b[38;5;117m  2\x1b[38;5;231m - Blu TV Checker  | \x1b[1;32m aktif ✅"
 print("\x1b[38;5;117m  3\x1b[38;5;231m - Exxen Checker   | \x1b[1;32m aktiff ✅")
 print("\x1b[38;5;117m  4\x1b[38;5;231m - Beymen Checker   | \x1b[1;32m yakında ✅")
 print("\x1b[38;5;117m  5\x1b[38;5;231m - Tiktok Checker   | \x1b[1;32m yakında ✅")
-print("\x1b[38;5;117m  6\x1b[38;5;231m - Bilyoner Checker   | \x1b[1;32m yakında ✅")
+print("\x1b[38;5;117m  6\x1b[38;5;231m - Bilyoner Checker   | \x1b[1;32m aktif ✅")
 print("\x1b[38;5;117m  7\x1b[38;5;231m - Hotmail Checker   | \x1b[1;32m aktif ✅")
 print("\x1b[38;5;117m  8\x1b[38;5;231m - Disney Checker   | \x1b[1;32m yakında ✅")
 print("\x1b[38;5;117m  9\x1b[38;5;231m - Sms Onay Checker   | \x1b[1;32m yakında ✅")
