@@ -20,7 +20,7 @@ print("\x1b[38;5;117m  10\x1b[38;5;231m - D - Smart  Checker   | \x1b[1;32m akti
 print("\x1b[38;5;117m  11\x1b[38;5;231m - Facebook Checker   | \x1b[1;32m aktif ✅")
 print("\x1b[38;5;117m  12\x1b[38;5;231m - Instagram Checker   | \x1b[1;32m yakında ✅")
 print("\x1b[38;5;117m  13\x1b[38;5;231m - Pubg-facebook Checker   | \x1b[1;32m aktif ✅")
-print("\x1b[38;5;117m  14\x1b[38;5;231m - Instagram Checker   | \x1b[1;32m yakında ✅")
+print("\x1b[38;5;117m  14\x1b[38;5;231m - Bein Checker   | \x1b[1;32m yakında ✅")
 
 
 
