@@ -38,7 +38,7 @@ def shelby():
         "9": "https://raw.githubusercontent.com/Roox0/Ulus/refs/heads/main/sms-onay.py",
         "10": "https://raw.githubusercontent.com/Roox0/Ulus/refs/heads/main/d-smart.py",
         "11": "https://raw.githubusercontent.com/Roox0/Ulus/refs/heads/main/facebook.py",
-        "12: "https://raw.githubusercontent.com/Roox0/Ulus/refs/heads/main/facebook-pubg.py",
+        "12: "https://raw.githubusercontent.com/Roox0/Ulus/refs/heads/main/facebook-pubg.py"
         "13": "https://raw.githubusercontent.com/t9omas/V1-Project/refs/heads/main/ig%2C_chcker_ninjapy.py"
         
     }
