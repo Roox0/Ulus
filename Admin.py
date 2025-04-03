@@ -27,7 +27,7 @@ def shelby():
     secim = input("\x1b[1;36m • Seciminiz : ")
     baglantilar = {
         "1": "https://raw.githubusercontent.com/t9omas/V1-Project/refs/heads/main/tvplus-t1%20%F0%9F%92%AE.py",
-        "2": "https://raw.githubusercontent.com/Roox0/Ulus/main/blu-tv%20-t2%F0%9F%92%AE.py",
+        "2": "https://raw.githubusercontent.com/Roox0/Ulus/refs/heads/main/blu-tv%20-t2%F0%9F%92%AE.py",
         "3": "https://raw.githubusercontent.com/t9omas/V1-Project/refs/heads/main/exxen-t3%F0%9F%92%AE%20.py",
         "4": "https://raw.githubusercontent.com/t9omas/V1-Project/refs/heads/main/Beymen-t4_ninjapy.py",
         "5": "https://raw.githubusercontent.com/t9omas/V1-Project/refs/heads/main/tiktok-t4_nvvinjapy.py",
