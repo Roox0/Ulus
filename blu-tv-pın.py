@@ -3,53 +3,7 @@ from dataclasses import dataclass
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 import os
-try:
-    import requests
-    from colorama import Fore, Style, init
-except:
-    os.system("pip install requests")
-    os.system("pip install colorama")
-    import requests
-    
-import requests
-import sys
 
-def fetch_tool_status():
-    try:
-        response = requests.get('https://rooxtool.freewebhostmost.com/tool_status.php?action=getAll')
-        response.raise_for_status()
-        tools = response.json()
-        return tools
-    except requests.exceptions.HTTPError as http_err:
-        print(f'HTTP error occurred: {http_err}')
-        return None
-    except Exception as err:
-        print(f'Other error occurred: {err}')
-        return None
-
-def main():
-    tools = fetch_tool_status()
-    if tools:
-        # Örneğin, 3. toolu kontrol etmek için:
-        tool_index = 26  # 3. tool için index 2
-
-        if len(tools) > tool_index:
-            specific_tool = tools[tool_index]
-            print(f'{tool_index + 1}. {specific_tool["name"]} Tool Durumu: {specific_tool["status"]}')
-            if 'aktif' in specific_tool["status"].lower():
-                print(f"{specific_tool['name']} toolu açık, iyisin!")
-            elif 'kapalı' in specific_tool["status"].lower() or 'pasif' in specific_tool["status"].lower():
-                print("finished")
-                sys.exit()
-            else:
-                print(f"Geçersiz durum. {specific_tool['name']} tool durumu kontrol ediliyor.")
-        else:
-            print(f'Tool index {tool_index} geçerli değil. Toplam {len(tools)} tool var.')
-    else:
-        print('Tool durumları alınamadı.')
-
-if __name__ == '__main__':
-    main()    
     
 
 init(autoreset=True)
