@@ -63,7 +63,7 @@ def shelby():
     if secim in baglantilar:
         thomas(baglantilar[secim])
     else:
-        print("1 ile 9 arası bir sayı giriniz.")
+        print("1 ile 21 arası bir sayı giriniz.")
         shelby()
 def thomas(url):
     try:
