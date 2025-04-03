@@ -2,7 +2,6 @@ import time
 import os
 import webbrowser
 import os
-import time
 import sys
 from datetime import datetime
 import requests
