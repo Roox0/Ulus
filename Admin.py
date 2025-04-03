@@ -21,7 +21,9 @@ print("\x1b[38;5;117m  11\x1b[38;5;231m - Facebook Checker   | \x1b[1;32m aktif 
 print("\x1b[38;5;117m  12\x1b[38;5;231m - Instagram Checker   | \x1b[1;32m yakında ✅")
 print("\x1b[38;5;117m  13\x1b[38;5;231m - Pubg-facebook Checker   | \x1b[1;32m aktif ✅")
 print("\x1b[38;5;117m  14\x1b[38;5;231m - Bein Checker   | \x1b[1;32m aktif ✅")
-print("\x1b[38;5;117m  15\x1b[38;5;231m - Blu Tv Pın Silici Checker   | \x1b[1;32m kod ✅")
+print("\x1b[38;5;117m  15\x1b[38;5;231m - Blu Tv Pın Silici   | \x1b[1;32m kod ✅")
+print("\x1b[38;5;117m  16\x1b[38;5;231m - Proxy Çekme   | \x1b[1;32m aktif ✅")
+
 
 
 
@@ -44,7 +46,8 @@ def shelby():
         "12": "https://raw.githubusercontent.com/t9omas/V1-Project/refs/heads/main/ig%2C_chcker_ninjapy.py",
         "13": "https://raw.githubusercontent.com/Roox0/Ulus/refs/heads/main/facebook-pubg.py",
         "14": "https://raw.githubusercontent.com/Roox0/Ulus/refs/heads/main/bein.py",
-        "15": "https://raw.githubusercontent.com/Roox0/Ulus/refs/heads/main/blu-tv-p%C4%B1n.py"
+        "15": "https://raw.githubusercontent.com/Roox0/Ulus/refs/heads/main/blu-tv-p%C4%B1n.py",
+        "16": ""
     }
     
     if secim in baglantilar:
