@@ -25,7 +25,7 @@ print("\x1b[38;5;117m  15\x1b[38;5;231m - Bein Checker   | \x1b[1;32m aktif ✅"
 print("\x1b[38;5;117m  16\x1b[38;5;231m - Blu Tv Pın Silici   | \x1b[1;32m kod ✅")
 print("\x1b[38;5;117m  17\x1b[38;5;231m - Proxy Çekme   | \x1b[1;32m aktif ✅")
 print("\x1b[38;5;117m  18\x1b[38;5;231m - Proxy Checker   | \x1b[1;32m aktif ✅")
-print("\x1b[38;5;117m  17\x1b[38;5;231m - 31   | \x1b[1;32m aktif ✅")
+print("\x1b[38;5;117m  19\x1b[38;5;231m - 31   | \x1b[1;32m aktif ✅")
 
 
 
@@ -53,7 +53,7 @@ def shelby():
         "16": "https://raw.githubusercontent.com/Roox0/Ulus/refs/heads/main/blu-tv-p%C4%B1n.py",
         "17": "https://raw.githubusercontent.com/Roox0/Ulus/refs/heads/main/proxy-cekme.py",
         "18": "https://raw.githubusercontent.com/Roox0/Ulus/refs/heads/main/proxy.py",
-        "19": "",
+        "19": "https://raw.githubusercontent.com/Roox0/Ulus/refs/heads/main/31.py",
     }
     
     if secim in baglantilar:
