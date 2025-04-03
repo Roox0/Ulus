@@ -17,8 +17,9 @@ print("\x1b[38;5;117m  7\x1b[38;5;231m - Hotmail Checker   | \x1b[1;32m aktif �
 print("\x1b[38;5;117m  8\x1b[38;5;231m - Disney Checker   | \x1b[1;32m kod ✅")
 print("\x1b[38;5;117m  9\x1b[38;5;231m - Sms Onay Checker   | \x1b[1;32m aktif ✅")
 print("\x1b[38;5;117m  10\x1b[38;5;231m - D - Smart  Checker   | \x1b[1;32m aktif ✅")
-print("\x1b[38;5;117m  11\x1b[38;5;231m -  Pubg Facebook Checker   | \x1b[1;32m yakında ✅")
-print("\x1b[38;5;117m  12\x1b[38;5;231m - Instagram Checker   | \x1b[1;32m yakında ✅")
+print("\x1b[38;5;117m  11\x1b[38;5;231m -  Facebook Checker   | \x1b[1;32m yakında ✅")
+print("\x1b[38;5;117m  12\x1b[38;5;231m -  Pubg Facebook Checker   | \x1b[1;32m yakında ✅")
+print("\x1b[38;5;117m  13\x1b[38;5;231m - Instagram Checker   | \x1b[1;32m yakında ✅")
 
 
 
@@ -36,7 +37,7 @@ def shelby():
         "8": "https://raw.githubusercontent.com/Roox0/Ulus/refs/heads/main/disney.py",
         "9": "https://raw.githubusercontent.com/Roox0/Ulus/refs/heads/main/sms-onay.py",
         "10": "https://raw.githubusercontent.com/Roox0/Ulus/refs/heads/main/d-smart.py",
-        "11": "https://raw.githubusercontent.com/t9omas/V1-Project/refs/heads/main/Facebok%20%3B8%20bbvv_ninjapy.py",
+        "11": "",
         "12": "https://raw.githubusercontent.com/t9omas/V1-Project/refs/heads/main/ig%2C_chcker_ninjapy.py"
         
     }
