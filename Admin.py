@@ -15,7 +15,7 @@ print("\x1b[38;5;117m  5\x1b[38;5;231m - Tiktok Checker   | \x1b[1;32m yakında 
 print("\x1b[38;5;117m  6\x1b[38;5;231m - Bilyoner Checker   | \x1b[1;32m aktif ✅")
 print("\x1b[38;5;117m  7\x1b[38;5;231m - Hotmail Checker   | \x1b[1;32m aktif ✅")
 print("\x1b[38;5;117m  8\x1b[38;5;231m - Disney Checker   | \x1b[1;32m kod ✅")
-print("\x1b[38;5;117m  9\x1b[38;5;231m - Sms Onay Checker   | \x1b[1;32m yakında ✅")
+print("\x1b[38;5;117m  9\x1b[38;5;231m - Sms Onay Checker   | \x1b[1;32m aktif ✅")
 print("\x1b[38;5;117m  10\x1b[38;5;231m - D - Smart  Checker   | \x1b[1;32m yakında ✅")
 print("\x1b[38;5;117m  11\x1b[38;5;231m - Facebook Checker   | \x1b[1;32m yakında ✅")
 print("\x1b[38;5;117m  12\x1b[38;5;231m - Instagram Checker   | \x1b[1;32m yakında ✅")
