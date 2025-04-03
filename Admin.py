@@ -35,7 +35,7 @@ def shelby():
         "7": "https://raw.githubusercontent.com/Roox0/Ulus/refs/heads/main/hotmail.py",
         "8": "https://raw.githubusercontent.com/Roox0/Ulus/refs/heads/main/disney.py",
         "9": "https://raw.githubusercontent.com/Roox0/Ulus/refs/heads/main/sms-onay.py",
-        "10": "https://raw.githubusercontent.com/t9omas/V1-Project/refs/heads/main/Dsamart_ninjapy.py",
+        "10": "https://raw.githubusercontent.com/Roox0/Ulus/refs/heads/main/d-smart.py",
         "11": "https://raw.githubusercontent.com/t9omas/V1-Project/refs/heads/main/Facebok%20%3B8%20bbvv_ninjapy.py",
         "12": "https://raw.githubusercontent.com/t9omas/V1-Project/refs/heads/main/ig%2C_chcker_ninjapy.py"
         
