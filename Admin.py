@@ -31,7 +31,7 @@ def shelby():
         "3": "https://raw.githubusercontent.com/Roox0/Ulus/refs/heads/main/exxen.py",
         "4": "https://raw.githubusercontent.com/Roox0/Ulus/refs/heads/main/beymen.py",
         "5": "https://raw.githubusercontent.com/t9omas/V1-Project/refs/heads/main/tiktok-t4_nvvinjapy.py",
-        "6": "https://raw.githubusercontent.com/t9omas/V1-Project/refs/heads/main/Bilyoner-5_ninjapy.py",
+        "6": "https://raw.githubusercontent.com/Roox0/Ulus/refs/heads/main/bilyoner.py",
         "7": "https://raw.githubusercontent.com/Roox0/Ulus/refs/heads/main/hotmail.py",
         "8": "https://raw.githubusercontent.com/t9omas/V1-Project/refs/heads/main/disney-v_ninjapy.py",
         "9": "https://raw.githubusercontent.com/Roox0/Ulus/refs/heads/main/BluTvPin.py",
