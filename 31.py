@@ -8,7 +8,7 @@ import requests
 
 
 
-
+print('bir hata var çözemedim')
 
 
 def Roox_31_cekme():
