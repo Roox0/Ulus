@@ -6,7 +6,10 @@ import os
 
     
 
+init(autoreset=True)
 
+session = requests.Session()
+stop_searching = False
 
 @dataclass
 class Profile:
