@@ -23,7 +23,7 @@ print("\x1b[38;5;117m  13\x1b[38;5;231m - Pubg-facebook Checker   | \x1b[1;32m a
 print("\x1b[38;5;117m  14\x1b[38;5;231m - Bein Checker   | \x1b[1;32m aktif ✅")
 print("\x1b[38;5;117m  15\x1b[38;5;231m - Blu Tv Pın Silici   | \x1b[1;32m kod ✅")
 print("\x1b[38;5;117m  16\x1b[38;5;231m - Proxy Çekme   | \x1b[1;32m aktif ✅")
-print("\x1b[38;5;117m  18\x1b[38;5;231m - Proxy Checker   | \x1b[1;32m aktif ✅")
+print("\x1b[38;5;117m  17\x1b[38;5;231m - Proxy Checker   | \x1b[1;32m aktif ✅")
 
 
 
